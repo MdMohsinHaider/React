@@ -1,4 +1,5 @@
 import Parent from "./props/Parent";
+import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
 import Statesincbc from "./states/cbc/Statesincbc";
 import Counter from "./states/fbc/Counter";
 import Heart from "./states/fbc/Heart";
@@ -12,7 +13,8 @@ const App = () => {
             <Counter/><hr />
             <Heart/><hr />
             <Statesincbc/><hr />
-            <Parent/>
+            <Parent/><hr />
+            <PropsDrillingParent/>
         </>
     )
 }
