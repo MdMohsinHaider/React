@@ -1,5 +1,8 @@
+import Profile from "./images/Profile";
 import Parent from "./props/Parent";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
+import Footer from "./reactCss/Footer";
+import InlineCSS from "./reactCss/InlineCSS";
 import Statesincbc from "./states/cbc/Statesincbc";
 import Counter from "./states/fbc/Counter";
 import Heart from "./states/fbc/Heart";
@@ -9,12 +12,16 @@ const App = () => {
     return(
         <>
             <h1>I am Component</h1>
-            <States/><hr />
+            <InlineCSS/><br /><hr />
+            <Profile/>
+            <Footer/><br /><hr />
+            <States/><br /><hr />
             <Counter/><hr />
             <Heart/><hr />
             <Statesincbc/><hr />
             <Parent/><hr />
             <PropsDrillingParent/>
+
         </>
     )
 }
