@@ -1,3 +1,4 @@
+import FlipkartNavbar from "./flipkartAssignment/FlipkartNavbar";
 import Profile from "./images/Profile";
 import Parent from "./props/Parent";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
@@ -11,8 +12,9 @@ import States from "./states/fbc/States";
 const App = () => {
     return(
         <>
-            <h1>I am Component</h1>
-            <InlineCSS/><br /><hr />
+            {/* <h1>I am Component</h1> <br /> */}
+            <FlipkartNavbar/><br /><hr />
+            {/* <InlineCSS/><br /><hr />
             <Profile/>
             <Footer/><br /><hr />
             <States/><br /><hr />
@@ -20,7 +22,7 @@ const App = () => {
             <Heart/><hr />
             <Statesincbc/><hr />
             <Parent/><hr />
-            <PropsDrillingParent/>
+            <PropsDrillingParent/> */}
 
         </>
     )
