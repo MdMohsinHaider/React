@@ -8,12 +8,14 @@ import Statesincbc from "./states/cbc/Statesincbc";
 import Counter from "./states/fbc/Counter";
 import Heart from "./states/fbc/Heart";
 import States from "./states/fbc/States";
+import FlipkartNav from "./task1/FlipkartNav";
 
 const App = () => {
     return(
         <>
             {/* <h1>I am Component</h1> <br /> */}
-            <FlipkartNavbar/><br /><hr />
+            {/* <FlipkartNavbar/><br /><hr /> */}
+            <FlipkartNav/>
             {/* <InlineCSS/><br /><hr />
             <Profile/>
             <Footer/><br /><hr />
