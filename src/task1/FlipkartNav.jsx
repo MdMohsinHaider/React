@@ -19,7 +19,7 @@ function FlipkartNav() {
                 <section className={style.searchContainer}>
                     <div className={style.ser}>
                         <input type="text" name="search" className={style.testfild} />
-                        <input type="button" value="Search" />
+                        <input type="button" value="Search" className={style.btn} />
                     </div>
                 </section>
 

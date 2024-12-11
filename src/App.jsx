@@ -1,4 +1,6 @@
 import FlipkartNavbar from "./flipkartAssignment/FlipkartNavbar";
+import ControlledForms from "./forms/ControlledForms";
+import ControlledForms2 from "./forms/ControlledForms2";
 import Profile from "./images/Profile";
 import Parent from "./props/Parent";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
@@ -13,9 +15,13 @@ import FlipkartNav from "./task1/FlipkartNav";
 const App = () => {
     return(
         <>
+            <ControlledForms/> <br /><br />
+            <center>
+            <ControlledForms2/>
+            </center>
             {/* <h1>I am Component</h1> <br /> */}
             {/* <FlipkartNavbar/><br /><hr /> */}
-            <FlipkartNav/>
+            {/* <FlipkartNav/> */}
             {/* <InlineCSS/><br /><hr />
             <Profile/>
             <Footer/><br /><hr />

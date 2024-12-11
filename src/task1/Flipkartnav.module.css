@@ -43,6 +43,7 @@ height: 100%;
 .ser {
     width:100%;
     height: 100%;
+    display: block;
     justify-content: space-evenly;
     
 }
@@ -54,12 +55,14 @@ height: 100%;
     border: 1px solid #f0f5ff;
 }
 
-.ser input:hover{
-    background-color: #dcdfe4;
+.ser input:hover.btn{
+    background-color: #5d8ddf;
     border: 1px solid #f0f5ff;
 }
+
 .testfild{
     width: 90%;
+    padding: 2px;
 }
 
 ul{
