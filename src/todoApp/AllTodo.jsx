@@ -1,9 +1,10 @@
-import {style} from "./alltodos.module.css";
+// import {style} from "./alltodos.module.css";
+import style from "./alltodos.module.css"
 
 export default function AllTodo(prop) {
     let {allTodos,deleteTodo,editTodo} = prop;
     return (
-        <div>
+        <div id={style.todosWrapper}>
             {
                 allTodos.map((ele)=>{
                     console.log(ele);

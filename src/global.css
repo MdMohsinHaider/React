@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* background-color: rgba(28, 27, 26, 0.372);
-    color:white;
+    /* background-color: rgba(28, 27, 26, 0.118); */
+    /* color:white;
     padding: 8px; */
+}
+body{
+    background-color: rgba(231, 234, 181, 0.824);
 }

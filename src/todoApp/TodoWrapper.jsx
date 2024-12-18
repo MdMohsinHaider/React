@@ -52,8 +52,8 @@ export default function TodoWrapper() {
     return (
         <>
             <div>
-                <AllTodo allTodos ={allTodos} deleteTodo={deleteTodo} editTodo={editTodo} />
                 <CreateTodo todo = {todo} handleTodo={handleTodo} creteTodo={creteTodo}/>
+                <AllTodo allTodos ={allTodos} deleteTodo={deleteTodo} editTodo={editTodo} />
             </div>
         </>
     )
