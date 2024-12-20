@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import style from "./fetchApi.module.css";
 
 function FetchApi() {
 
@@ -23,16 +24,38 @@ function FetchApi() {
 
 
     return (
-        <div>
-            {
-                dbData?.map((ele)=>{
-                    return(
-                        <section key={ele.id}>
-                            <h1>{}</h1>
-                        </section>
-                    )
-                })
-            }
+        <div className={style.usersContainer}>
+            <table className={style.productTable}>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {dbData?.map((ele) => {
+                        let { category, description, id, image, price, rating, title } = ele;
+                        return (
+                            <tr key={id}>
+                                <td>{id}</td>
+                                <td>{title}</td>
+                                <td>{category}</td>
+                                <td>{description}</td>
+                                <td>
+                                    <img src={image} alt={title} style={{ width: "100px", height: "80px" }} />
+                                </td>
+                                <td>${price.toFixed(2)}</td>
+                                <td>{rating?.rate} ({rating?.count} reviews)</td>
+                            </tr>
+                        );
+                    })}
+                </tbody>
+            </table>
         </div>
     )
 }

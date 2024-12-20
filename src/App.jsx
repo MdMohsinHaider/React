@@ -19,6 +19,14 @@ import TodoWrapper from "./todoApp/TodoWrapper";
 import SideEffects from "./useEffect/SideEffects";
 import SideEffects2 from "./useEffect/SideEffects2";
 import FetchApi from "./fetch/FetchApi";
+import FetchApi1 from "./task2/FetchApi1";
+import FetchApi2 from "./task2/FetchApi2";
+import ContestChildA from "./context/ContestChildA";
+import ContestParent from "./context/ContestParent";
+import FetchApi3 from "./task2/FetchApi3";
+import FetchApi4 from "./task2/Fetchapi4";
+import FetchApi5 from "./task2/FetchApi5";
+import FetchApi6 from "./task2/FetchApi6";
 
 const App = () => {
 
@@ -56,7 +64,14 @@ const App = () => {
                 toggle?<SideEffects2/>:<h1>No component</h1>
             } */}
 
-            <FetchApi/>
+            {/* <FetchApi/> */}
+            {/* <FetchApi1/> */}
+            {/* <FetchApi2/> */}
+            {/* <FetchApi3/> */}
+            {/* <FetchApi4/> */}
+            {/* <FetchApi5/> */}
+            <FetchApi6/>
+            {/* <ContestParent/> */}
         </>
     )
 }
