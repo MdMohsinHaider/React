@@ -27,6 +27,9 @@ import FetchApi3 from "./task2/FetchApi3";
 import FetchApi4 from "./task2/Fetchapi4";
 import FetchApi5 from "./task2/FetchApi5";
 import FetchApi6 from "./task2/FetchApi6";
+import Users from "./context/Users";
+import Context from "./context/Context";
+import Product from "./customeHooks/Product";
 
 const App = () => {
 
@@ -70,8 +73,13 @@ const App = () => {
             {/* <FetchApi3/> */}
             {/* <FetchApi4/> */}
             {/* <FetchApi5/> */}
-            <FetchApi6/>
+            {/* <FetchApi6/> */}
             {/* <ContestParent/> */}
+
+                {/* <Context>
+                    <Users/>
+                </Context> */}
+            <Product/>
         </>
     )
 }
