@@ -5,7 +5,7 @@ import ControlledForms2 from "./forms/ControlledForms2";
 import UncontrolldForms from "./forms/UncontrolldForms";
 import Profile from "./images/Profile";
 import LifeCycle from "./lifecycle/LifeCycle";
-import Parent from "./props/Parent";
+// import Parent from "./props/Parent";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
 import Footer from "./reactCss/Footer";
 import InlineCSS from "./reactCss/InlineCSS";
@@ -30,6 +30,7 @@ import FetchApi6 from "./task2/FetchApi6";
 import Users from "./context/Users";
 import Context from "./context/Context";
 import Product from "./customeHooks/Product";
+import Parent from "./hoc/Parent";
 
 const App = () => {
 
@@ -79,7 +80,8 @@ const App = () => {
                 {/* <Context>
                     <Users/>
                 </Context> */}
-            <Product/>
+            {/* <Product/> */}
+            <Parent/>
         </>
     )
 }
