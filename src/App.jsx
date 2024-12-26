@@ -31,6 +31,7 @@ import Users from "./context/Users";
 import Context from "./context/Context";
 import Product from "./customeHooks/Product";
 import Parent from "./hoc/Parent";
+import MemoParent from "./memo/MemoParent";
 
 const App = () => {
 
@@ -81,7 +82,8 @@ const App = () => {
                     <Users/>
                 </Context> */}
             {/* <Product/> */}
-            <Parent/>
+            {/* <Parent/> */}
+            <MemoParent/>
         </>
     )
 }
