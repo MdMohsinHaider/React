@@ -32,6 +32,8 @@ import Context from "./context/Context";
 import Product from "./customeHooks/Product";
 import Parent from "./hoc/Parent";
 import MemoParent from "./memo/MemoParent";
+import MyComponent from "./errorboundary/MyComponent";
+import ErrorBoundary from "./errorboundary/ErrorBoundary";
 
 const App = () => {
 
@@ -83,7 +85,10 @@ const App = () => {
                 </Context> */}
             {/* <Product/> */}
             {/* <Parent/> */}
-            <MemoParent/>
+            {/* <MemoParent/> */}
+            <ErrorBoundary>
+                <MyComponent/>
+            </ErrorBoundary>
         </>
     )
 }
